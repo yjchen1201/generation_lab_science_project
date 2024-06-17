@@ -14,14 +14,8 @@ The project involves the following steps:
 
 ## Files
 
-- `Generation_Lab_proj.R`: The main R script containing all the steps.
-- `public_beta_values_corrected`: Corrected beta value csv file for each public sample.
-- `internal_beta_values_corrected`: Corrected beta value csv file for each internal sample.
 - `Generation_lab_proj_sessionInfo.txt`: Information about the R session, including package versions.
+- `Generation_Lab_proj.R`: The main R script containing all the steps.
+- `public_beta_values_corrected`: Corrected beta value csv files for each public sample. https://drive.google.com/drive/folders/1dkrOGaLcCbnz5yW-ObJlm-kest9WnW_K?usp=sharing
+- `internal_beta_values_corrected`: Corrected beta value csv files for each internal sample. https://drive.google.com/drive/folders/1PBCAKRcHvGHgxHGr8Yd5cC3f3gOOt36U?usp=sharing
 
-## Usage
-
-To reproduce the results, run the `Generation_Lab_proj.R` script in R.
-
-```R
-source("Generation_Lab_proj.R")
