@@ -14,7 +14,7 @@ library(dplyr)
 writeLines(capture.output(sessionInfo()), "Generation_lab_proj_sessionInfo.txt")
 
 
-#Step 2: Load Data
+#Step 2: Load Data (data source: https://drive.google.com/drive/folders/14q912E3vTP1uP7PKIukYiOugg2kiEUq4?usp=sharing)
 # Load IDAT files 
 public_baseDir <- "~/Downloads/public_datasets_with_metadata"
 internal_baseDir <- "~/Downloads/internal_dataset_with_metadata"
