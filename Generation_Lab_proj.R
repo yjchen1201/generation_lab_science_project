@@ -125,3 +125,20 @@ internal_corrected <- beta_corrected[, (ncol(public_rgSet) + 1):ncol(beta_correc
 # Save to CSV
 write.csv(public_corrected, "public_beta_values_corrected_Noob.csv")
 write.csv(internal_corrected, "internal_beta_values_corrected_Noob.csv")
+
+# Save to CSV
+write.csv(public_corrected, "public_beta_values_corrected_Noob.csv")
+write.csv(internal_corrected, "internal_beta_values_corrected_Noob.csv")
+
+# Save each sample's beta values into separate CSV files
+saveIndividualCSVs <- function(beta_matrix, output_dir) {
+  dir.create(output_dir, showWarnings = FALSE)
+  for (sample_id in colnames(beta_matrix)) {
+    sample_beta_values <- beta_matrix[, sample_id, drop = FALSE]
+    write.csv(sample_beta_values, file.path(output_dir, paste0(sample_id, "_beta_values.csv")), row.names = TRUE)
+  }
+}
+
+# Save individual CSVs for public and internal corrected data
+saveIndividualCSVs(public_corrected, "public_corrected_samples")
+saveIndividualCSVs(internal_corrected, "internal_corrected_samples")
