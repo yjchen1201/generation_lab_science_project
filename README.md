@@ -1,6 +1,6 @@
 # generation_lab_science_project
 
-This repository contains the code and data for the DNA methylation project. The goal of this project is to ensure consistency across DNA methylation data from various public datasets and an internal dataset.
+This repository contains the code and data for the DNA methylation project. The goal of this project is to ensure consistency across DNA methylation data from various public datasets and an internal dataset. The key outputs are corrected beta values for each sample.
 
 ## Project Overview
 
